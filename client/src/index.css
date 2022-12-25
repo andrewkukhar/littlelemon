@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #444;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Use rem units to allow for easy resizing */
+h1 {
+  font-size: 2rem;
+}
+
+/* Center content horizontally */
+.container {
+  display: flex;
+  flex-direction: column;
+  place-items: center center;
+}
+
+/* Stack elements vertically on mobile */
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Make form inputs take up the full width on mobile */
+input[type="text"], input[type="date"], input[type="time"], input[type="number"] {
+  width: 100%;
+}
+
+/* Add some padding and a border to form inputs */
+input[type="text"], input[type="date"], input[type="time"], input[type="number"] {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+}
+
+/* Make form buttons full width on mobile */
+button[type="submit"] {
+  width: 100%;
+}
+
+/* Add some padding and a background color to form buttons */
+button[type="submit"] {
+  padding: 0.75rem;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+/* Add a hover effect to form buttons */
+button[type="submit"]:hover {
+  background-color: #333;
+  cursor: pointer;
+}
+
+/* Add a media query for tablets and up */
+/*
+@media (min-width: 768px) {
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+
+  input[type="text"], input[type="date"], input[type="time"], input[type="number"] {
+    width: 50%;
+  }
+
+  button[type="submit"] {
+    width: 50%;
+  }
+}
+*/
