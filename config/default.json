@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "jwtSecret": "littlelemon",
+    "mongoUri": "mongodb+srv://LittleLemon:LittleLemon@cluster0.xt8ni2b.mongodb.net/?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:5000"
+}
